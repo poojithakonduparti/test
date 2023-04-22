@@ -11,7 +11,6 @@ const App = () => {
     const [formState, setFormState] = useState(initialState);
     const [todos, setTodos] = useState([]);
     
-    
     async function addTodo() {
         try {
           const todo = { ...formState }
